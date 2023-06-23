@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m0s
-  path: ./manifests/staging/namespaces ## ini akan di ambil dari folder manifest yang telah di buat
+  path: ./manifests/war-staging/namespaces ## ini akan di ambil dari folder manifest yang telah di buat
   prune: true
   sourceRef:
     kind: GitRepository # ini ambil dari git repository 
