@@ -1,0 +1,19 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: goapp # ini nama release
+spec:
+  interval: 1m
+  chart:
+    spec:
+      chart: ./helm/application # in chartnya
+      sourceRef:
+        kind: GitRepository # ini adaalah helm repository yang kita bikin di folder helm
+        name: flux-system
+        namespace: flux-system
+      interval: 1m
+  values: 
+    image: gcr.io/studi-devops-370205/goapp:alpha
+    port: 8000
+
+  
