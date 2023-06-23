@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m0s
-  path: .manifest/warstaging/namespaces
+  path: ./manifest/warstaging/namespaces
   prune: true
   sourceRef:
     kind: GitRepository
