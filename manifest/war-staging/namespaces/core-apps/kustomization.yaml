@@ -3,5 +3,4 @@ kind: Kustomization
 namespace: core-apps
 resources:
   - namespace.yaml
-  - ../../../../helm/grafana/repository.yaml ## manggil helm
   - goapp
