@@ -1,12 +1,14 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
 kind: Kustomization
 metadata:
-  name: flux-system
+  name: war-staging
   namespace: flux-system
 spec:
   interval: 1m0s
-  path: ./manifest/warstaging/namespaces
+  path: ./manifests/staging/namespaces ## ini akan di ambil dari folder manifest yang telah di buat
   prune: true
   sourceRef:
-    kind: GitRepository
-    name: flux-system
+    kind: GitRepository # ini ambil dari git repository 
+    name: flux-system # namespace ini akan masuk flux-system, untuk config source
+
+
