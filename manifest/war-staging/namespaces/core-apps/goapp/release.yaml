@@ -13,7 +13,7 @@ spec:
         namespace: flux-system
       interval: 1m
   values: 
-    image: gcr.io/studi-devops-370205/goapp:alpha
+    image: gcr.io/studi-devops-370205/goapp:Alpha
     port: 8000
     imagePullSecrets:
       name: gcr-credentials
