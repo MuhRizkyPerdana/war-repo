@@ -1,12 +1,5 @@
-FROM golang:alpine3.16 AS build
-WORKDIR /app
-COPY go.mod ./
-RUN go mod download
-COPY *.go ./
-RUN go build -o /gapp
+FROM node:12-alpine
 
-FROM golang:alpine3.16
-WORKDIR /
-COPY --from=build /goapp /goapp
-EXPOSE 80
-ENTRYPOINT ["/goapp"]
+ADD app.js app.js
+
+CMD ["node", "app.js"]
