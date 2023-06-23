@@ -299,7 +299,7 @@ using only kustomize
 service : https://github.com/MuhRizkyPerdana/war-repo/tree/main/manifest/war-staging/namespaces/core-apps/nodejs-web
 
 
-# Want to Cek
+# Want to Cek Service
 
 ### Jenkins
 
