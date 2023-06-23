@@ -1,0 +1,8 @@
+kubectl create secret docker-registry gcr-credentials -n core-apps\
+ --docker-server=gcr.io \
+ --docker-username=_json_key \
+ --docker-password="$(cat studi-devops-370205-b8e72f32873b.json)" \
+ --docker-email=gcr-credentials@studi-devops-370205.iam.gserviceaccount.com
+
+
+ 
