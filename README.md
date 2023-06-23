@@ -326,6 +326,10 @@ binding host this ip and domain : 34.124.144.62 nodejs-web.war.me
 
 
 
+Thank you, I Hope you understand
+
+
+
 
 
 
