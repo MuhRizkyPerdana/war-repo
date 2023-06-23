@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+        label 'docker'
+    }
     environment {
         GCP_SERVICE_ACCOUNT = credentials('gcp_service_account_storage')
         DISCORD = credentials('discord')
