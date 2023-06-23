@@ -11,7 +11,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-  - host: goapp.war.me
+  - host: nodejs-web.war.me
     http:
       paths:
       - pathType: Prefix
