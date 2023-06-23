@@ -8,7 +8,7 @@ import (
 )
 
 func homePage(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Golang Sample, Selamat Datang!\nApp Version: 6\nBelajar FluxCD Image Automation Update")
+	fmt.Fprintf(w, "Golang Sample, Selamat Datang!\nApp Version: 6\nPembuktian aka War")
 }
 
 func envPage(w http.ResponseWriter, r *http.Request) {
