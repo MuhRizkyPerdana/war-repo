@@ -21,3 +21,5 @@ spec:
             cpu: "100m"
         ports:
         - containerPort: {{ .Values.port }}
+      imagePullSecrets:
+        - name:  gcr-credentials
