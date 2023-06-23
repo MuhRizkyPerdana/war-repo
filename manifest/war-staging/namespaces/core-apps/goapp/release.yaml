@@ -15,5 +15,7 @@ spec:
   values: 
     image: gcr.io/studi-devops-370205/goapp:alpha
     port: 8000
+    imagePullSecrets:
+      name: gcr-credentials
 
   

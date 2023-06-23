@@ -1,2 +1,5 @@
 image: nginx:latest
 port: 80
+
+imagePullSecrets:
+  name: gcr-credentials

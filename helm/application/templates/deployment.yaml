@@ -22,4 +22,4 @@ spec:
         ports:
         - containerPort: {{ .Values.port }}
       imagePullSecrets:
-        - name:  gcr-credentials
+        - name:  {{ .Values.imagePullSecrets.name }}
