@@ -1,3 +1,8 @@
+## Infra Process Diagram
+
+![image](https://github.com/MuhRizkyPerdana/war-repo/assets/78329806/e9678844-4018-4c9e-bad8-fd91207efeed)
+
+
 In this solution, I have created a simple app consisting of a Go backend service and a Node.js backend service. I have set up a CI/CD pipeline using Jenkins and FluxCD to automate the build, containerization, and deployment processes. The services can be accessed from the public internet using a DNS domain (required binding host).
 
 
