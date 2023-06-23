@@ -1,3 +1,3 @@
-module war-repo/goapp
+module goapp
 
 go 1.18
