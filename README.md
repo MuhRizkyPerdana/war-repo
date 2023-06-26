@@ -309,8 +309,8 @@ service : https://github.com/MuhRizkyPerdana/war-repo/tree/main/manifest/war-sta
 ### Jenkins
 
 link : http://34.101.48.71:8080/view/all/job/Testing
-user :  testing
-password : testing123
+- user :  user-testing
+- password : testing123
 
 
 ### Service Access
