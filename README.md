@@ -261,6 +261,12 @@ After That Apply
 
 ![Alt text](image-15.png)
 
+- And Than you can check to FluxCD UI 
+
+![Alt text](image-20.png)
+
+![Alt text](image-21.png)
+
 
 
 # Result Important
@@ -332,6 +338,7 @@ binding host this ip and domain : 34.124.144.62 nodejs-web.war.me
 
 
 Thank you, I Hope you understand
+
 
 
 
